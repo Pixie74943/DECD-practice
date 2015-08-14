@@ -198,7 +198,19 @@ a:active,
 a:hover {
   outline: 0;
 }
+/* ==========================================================================
+   Page wrapper
+   ========================================================================== */
+.page-wrapper {
+margin-top: 25px;
+margin-bottom: 50px;
+}
 
+.layout-centered {
+max-width: 980px;
+margin-left: auto;
+margin-right: auto;
+}
 /* ==========================================================================
    Typography
 
@@ -570,17 +582,17 @@ table {
 @media (min-width: 720px) {
   #page,
   .region-bottom {
-    max-width: 720px;
+    max-width: 980px;
   }
 }
 .lt-ie9 #page, .lt-ie9
 .region-bottom {
-  max-width: 720px;
+  max-width: 9800px;
 }
 @media (min-width: 980px) {
   #page,
   .region-bottom {
-    max-width: 960px;
+    max-width: 980px;
   }
 }
 .lt-ie9 #page, .lt-ie9
@@ -1155,6 +1167,7 @@ html.js .collapsed .fieldset-legend {
  */
 /* Wrapping link for logo. */
 .header__logo {
+  position: absolute
   float: left;
   /* LTR */
   margin: 0;
@@ -1168,6 +1181,7 @@ html.js .collapsed .fieldset-legend {
 
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
+  position: absolute;
   float: left;
 }
 
@@ -1190,6 +1204,8 @@ html.js .collapsed .fieldset-legend {
 /* The slogan (or tagline) of a website. */
 .header__site-slogan {
   margin: 0;
+  font-size: 1em;
+  max-width: 75%;
 }
 
 /* The secondary menu (login, etc.) */
@@ -1975,9 +1991,6 @@ body {
 
 #page {
   background: white;
-  -webkit-box-shadow: 0 0 15px 5px grey;
-  -moz-box-shadow: 0 0 15px 5px grey;
-  box-shadow: 0 0 15px 5px grey;
   margin-top: -5px;
 }
 
