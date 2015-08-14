@@ -743,6 +743,12 @@ h4 {
   margin-bottom: 0.58333em;
 }
 
+.mission-statement {
+color: #495A7D;
+font-size: 1.5em;
+line-height: 1.35em;
+}
+
 .field-name-body {
   /* Content List Styles */
   /* Display image inline to the right */
