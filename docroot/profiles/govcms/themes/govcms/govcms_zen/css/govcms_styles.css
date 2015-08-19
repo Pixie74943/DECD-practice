@@ -1022,6 +1022,7 @@ html.js .collapsed .fieldset-legend {
   width: auto;
 }
 
+/* this piece of code is creating the bullet point */
 #block-menu-menu-quick-links ul a, .menu-block-govcms_menu_block-sidebar .menu a {
   background: url('../images/block-li-bg.png?1416352646') no-repeat scroll left 5px;
   display: block;
