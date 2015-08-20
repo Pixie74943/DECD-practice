@@ -2241,7 +2241,7 @@ footer .block {
 #block-menu-block-govcms-menu-block-footer {
   overflow: hidden;
   margin: 0;
-  background: #7a797a;
+  background: #002060;
   padding-bottom: 2.8em;
   padding-top: 1.4em;
 }
@@ -2394,7 +2394,7 @@ footer .block {
 }
 
 .region-navigation {
-  background: #7a797a;
+  background: #002060;
   position: relative;
   display: inline-block;
   width: 100%;
@@ -2443,7 +2443,8 @@ footer .block {
 }
 .region-navigation .block__content > .menu > li.active-trail > a, .region-navigation .block__content > .menu > li.active-trail > a a:hover {
   color: #f3f3f3;
-  background: #616161;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .region-navigation .block__content > .menu > li > a:hover, .region-navigation .block__content > .menu > li.sfHover > a {
   background: #f3f3f3;
@@ -2507,9 +2508,14 @@ footer .block {
   color: white;
   padding: 0 0 0 20px;
 }
+
+/* Second Sidebar Blocks */
 .sidebar .block .block__content {
-  background: #f3f3f3;
+  background: linear-gradient(#C4D3DE, #f3f3f3);
+  border: 1px solid #C4D3DE;
   padding: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .sidebar .block .menu, .sidebar .block p {
   margin: 0;
@@ -2584,6 +2590,7 @@ a.tabledrag-handle .handle {
   position: relative;
   overflow: hidden;
   background: #f1efed;
+  margin: 0px 25px;
 }
 #block-views-slideshow-block .view-slideshow ul {
   margin: 0px;
