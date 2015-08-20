@@ -204,6 +204,7 @@ a:hover {
 .page-wrapper {
 margin-top: 25px;
 margin-bottom: 50px;
+outline: 1px solid #e2e2e2;
 }
 
 .layout-centered {
@@ -744,7 +745,7 @@ h4 {
 }
 
 .mission-statement {
-color: #495A7D;
+color: #002060;
 font-size: 1.5em;
 line-height: 1.35em;
 }
@@ -1999,6 +2000,7 @@ body {
 #page {
   background: white;
   margin-top: -5px;
+  padding-top: 25px;
 }
 
 .breadcrumb {
@@ -2511,8 +2513,8 @@ footer .block {
 
 /* Second Sidebar Blocks */
 .sidebar .block .block__content {
-  background: linear-gradient(#C4D3DE, #f3f3f3);
-  border: 1px solid #C4D3DE;
+  background: #f1f1f1;
+  border: 1px solid #e2e2e2;
   padding: 15px;
   font-size: 1.2em;
   font-weight: bold;
@@ -2589,7 +2591,8 @@ a.tabledrag-handle .handle {
 #block-views-slideshow-block {
   position: relative;
   overflow: hidden;
-  background: #f1efed;
+  background: #f1f1f1;
+  border: 1px solid #e2e2e2;
   margin: 0px 25px;
 }
 #block-views-slideshow-block .view-slideshow ul {
