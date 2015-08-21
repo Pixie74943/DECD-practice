@@ -1185,6 +1185,8 @@ html.js .collapsed .fieldset-legend {
 /* Logo image. */
 .header__logo-image {
   vertical-align: bottom;
+  max-height: 150px;
+  
 }
 
 /* Wrapper for website name and slogan. */
@@ -2509,6 +2511,8 @@ footer .block {
   line-height: 2.275em;
   color: white;
   padding: 0 0 0 20px;
+  margin-bottom: -15px;
+  position: relative;
 }
 
 /* Second Sidebar Blocks */
@@ -2516,8 +2520,7 @@ footer .block {
   background: #f1f1f1;
   border: 1px solid #e2e2e2;
   padding: 15px;
-  font-size: 1.2em;
-  font-weight: bold;
+  border-radius: 15px;
 }
 .sidebar .block .menu, .sidebar .block p {
   margin: 0;
@@ -2527,6 +2530,25 @@ footer .block {
 .block-govcms-social-links a {
   display: inline-block;
   margin-right: 5px;
+}
+
+.ds-2col > .group-left {
+	float: left;
+	width: 25%;
+	padding-right: 5px;
+}
+
+.ds-2col > .group-right {
+	float: left;
+	width: 75%;
+}
+
+
+/* Quick Link Beans */
+.bean-quick-link-bean {
+	font-weight: bold;
+	font-size: 1.2em;
+	height: 75px;
 }
 
 /* Sidebar Menus */
