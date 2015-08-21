@@ -205,6 +205,7 @@ a:hover {
 margin-top: 25px;
 margin-bottom: 50px;
 outline: 1px solid #e2e2e2;
+background-color: #FFF
 }
 
 .layout-centered {
@@ -2001,12 +2002,10 @@ body {
 
 #page {
   background: white;
-  margin-top: -5px;
-  padding-top: 25px;
 }
 
 .breadcrumb {
-  padding: 1.4em;
+  padding: 0px 1.4em 1.4em 1.4em;
   border-bottom: solid 3px #7a797a;
   font-size: 0.92308em;
   line-height: 1.51667em;
@@ -2300,9 +2299,10 @@ footer .block {
 }
 
 .header__region {
-  margin: 1.4em 0;
   clear: right;
   float: right;
+  position: relative;
+  bottom: 35px
 }
 
 .header {
@@ -2400,6 +2400,7 @@ footer .block {
 .region-navigation {
   background: #002060;
   position: relative;
+  bottom: 20px;
   display: inline-block;
   width: 100%;
   padding: 7px;
