@@ -659,11 +659,11 @@ table {
 }
 @media (min-width: 980px) {
   #content {
-    width: 660px;
+    width: 680px;
   }
 }
 .lt-ie9 #content {
-  width: 660px;
+  width: 680px;
 }
 
 .region-sidebar-second {
@@ -1193,7 +1193,8 @@ html.js .collapsed .fieldset-legend {
 /* Wrapper for website name and slogan. */
 .header__name-and-slogan {
   position: absolute;
-  float: left;
+  left: 25%;
+  bottom: 40%;
 }
 
 /* The name of the website. */
@@ -1215,8 +1216,10 @@ html.js .collapsed .fieldset-legend {
 /* The slogan (or tagline) of a website. */
 .header__site-slogan {
   margin: 0;
-  font-size: 1em;
-  max-width: 75%;
+  font-size: 1.3em;
+  max-width: 50%;
+  text-align: center;
+  color: #003C7D
 }
 
 /* The secondary menu (login, etc.) */
@@ -2502,17 +2505,16 @@ footer .block {
 }
 
 .sidebar .block .block__title {
-  background: #7a797a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #878687), color-stop(100%, #7a797a));
-  background-image: -webkit-linear-gradient(#878687, #7a797a);
-  background-image: -moz-linear-gradient(#878687, #7a797a);
-  background-image: -o-linear-gradient(#878687, #7a797a);
-  background-image: linear-gradient(#878687, #7a797a);
+  background: #34466C;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #002060), color-stop(100%, #34466C));
+  background-image: -webkit-linear-gradient(#002060, #34466C);
+  background-image: -moz-linear-gradient(#002060, #34466C);
+  background-image: -o-linear-gradient(#002060, #34466C);
+  background-image: linear-gradient(#002060, #34466C);
   font-size: 1.23077em;
   line-height: 2.275em;
   color: white;
   padding: 0 0 0 20px;
-  margin-bottom: -15px;
   position: relative;
 }
 
@@ -2520,9 +2522,9 @@ footer .block {
 .sidebar .block .block__content {
   background: #f1f1f1;
   border: 1px solid #e2e2e2;
-  padding: 15px;
-  border-radius: 15px;
+  padding: 0 15px;
 }
+
 .sidebar .block .menu, .sidebar .block p {
   margin: 0;
   padding: 0;
@@ -2548,7 +2550,8 @@ footer .block {
 /* Quick Link Beans */
 .bean-quick-link-bean {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.3em;
+	text-align: center;
 	height: 75px;
 }
 
