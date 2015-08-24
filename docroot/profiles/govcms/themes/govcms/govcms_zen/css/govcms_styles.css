@@ -729,6 +729,7 @@ h2 {
   line-height: 1.16667em;
   margin-top: 0.41667em;
   margin-bottom: 0.41667em;
+  color: #365F91;
 }
 
 h3 {
@@ -736,6 +737,7 @@ h3 {
   line-height: 1.36111em;
   margin-top: 0.48611em;
   margin-bottom: 0.48611em;
+  color: #C00000
 }
 
 h4 {
@@ -743,6 +745,7 @@ h4 {
   line-height: 1.63333em;
   margin-top: 0.58333em;
   margin-bottom: 0.58333em;
+  color: #FF0000;
 }
 
 .mission-statement {
@@ -1026,7 +1029,6 @@ html.js .collapsed .fieldset-legend {
 
 /* this piece of code is creating the bullet point */
 #block-menu-menu-quick-links ul a, .menu-block-govcms_menu_block-sidebar .menu a {
-  background: url('../images/block-li-bg.png?1416352646') no-repeat scroll left 5px;
   display: block;
   padding-left: 15px;
   padding-bottom: 2px;
@@ -2244,6 +2246,11 @@ footer .block {
   text-decoration: underline;
 }
 
+.views-field-title {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
 #block-menu-block-govcms-menu-block-footer {
   overflow: hidden;
   margin: 0;
@@ -2546,6 +2553,13 @@ footer .block {
 	width: 75%;
 }
 
+.block__content .node-news-article {
+	border-bottom: 1px dashed #CDCDCD;
+}
+
+.menu-block-wrapper {
+	padding: 15px 0;
+}
 
 /* Quick Link Beans */
 .bean-quick-link-bean {
@@ -2619,7 +2633,7 @@ a.tabledrag-handle .handle {
   overflow: hidden;
   background: #f1f1f1;
   border: 1px solid #e2e2e2;
-  margin: 0px 25px;
+  margin: 0px 20px;
 }
 #block-views-slideshow-block .view-slideshow ul {
   margin: 0px;
@@ -2876,6 +2890,14 @@ select#tinynav1 {
     display: none;
   }
 }
+
+/* Webforms */
+#content .block-webform {
+	border: 2.5px solid #e2e2e2;
+	padding: 10px;
+	background: #f3f3f3;
+}
+
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
