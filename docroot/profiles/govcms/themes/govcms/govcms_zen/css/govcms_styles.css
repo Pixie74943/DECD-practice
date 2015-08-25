@@ -2382,10 +2382,11 @@ footer .block {
 .front .breadcrumb {
   display: none;
 }
-
-.gov-front-col {
-  margin: 1.4em 0;
+.gov-front-layout .panels-ipe-portlet-wrapper {
+	position: relative;
+	bottom: 10px;
 }
+
 @media (min-width: 720px) {
   .gov-front-col {
     width: 50%;
