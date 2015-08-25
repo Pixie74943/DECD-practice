@@ -2292,6 +2292,17 @@ footer .block {
 
 #block-menu-menu-footer-sub-menu {
   overflow: hidden;
+  background: #d1d1d1
+}
+
+#block-bean-footer-copyright {
+  overflow: hidden;
+  background: #002060;
+  color: #FFF;
+}
+
+#block-bean-footer-copyright a {
+  color: #FFF;
 }
 
 .header {
@@ -2397,9 +2408,30 @@ footer .block {
 .lt-ie9 .gov-front-col.gov-front-right {
   padding-left: 10px;
 }
+.gov-front-layout .panel-pane img {
+	border: 3px solid #e2e2e2
+}
 
-.front .panel-pane {
-  border-top: 3px solid #7a797a;
+.gov-front-layout a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.gov-front-layout p {
+	font-size: 1.2em;
+	position: relative;
+	bottom: 20px
+}
+
+.gov-front-layout .field-name-field-read-more {
+	position: relative;
+	bottom: 25px;
+	background: #f1f1f1;
+	padding: 10px;
+	margin: 0;
+	border: 3px solid #e2e2e2;
+	border-top: none;
 }
 
 .installer .centered-box {
@@ -2512,12 +2544,7 @@ footer .block {
 }
 
 .sidebar .block .block__title {
-  background: #34466C;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #002060), color-stop(100%, #34466C));
-  background-image: -webkit-linear-gradient(#002060, #34466C);
-  background-image: -moz-linear-gradient(#002060, #34466C);
-  background-image: -o-linear-gradient(#002060, #34466C);
-  background-image: linear-gradient(#002060, #34466C);
+  background: #002060;
   font-size: 1.23077em;
   line-height: 2.275em;
   color: white;
