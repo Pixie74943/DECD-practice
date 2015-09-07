@@ -63,6 +63,8 @@
   <?php print $breadcrumb; ?>
 
   <div id="main">
+  
+  <?php if ($sidebar_first || $sidebar_second): ?> 
 
     <div id="content" class="column" role="main">
 
@@ -96,6 +98,32 @@
         <?php print $sidebar_second; ?>
       </aside>
     <?php endif; ?>
+	
+	<?php else: ?>
+	
+	<div id="full-content" class="column" role="main">
+
+      <a href="#skip-link" id="skip-content" class="element-invisible">Go to top of page</a>
+
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+      <?php print $messages; ?>
+      <?php print render($tabs); ?>
+      <?php print render($page['help']); ?>
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+      <?php print $feed_icons; ?>
+    </div>
+		
+		<?php endif; ?>
+	
+	
 
   </div>
 
